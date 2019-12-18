@@ -12,7 +12,7 @@ fun PLusouMonis() {
     var attempt : Int = 0;
 
     do {
-        println("Player 2, try to guess  4 to give up ");
+        println("Player 2, try to guess or press 4 to give up");
         var user = readLine()!!.toInt();
 
         attempt++
@@ -46,7 +46,7 @@ fun PLusouMonis() {
         }
 
         if (user - secret in 19..20){
-            println("T'es mort")
+            println("Perdu !")
         }
 
 
